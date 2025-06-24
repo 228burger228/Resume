@@ -1,0 +1,275 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer | Ваше Имя</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="hero">
+                <div class="profile-img"></div>
+                <div class="hero-content">
+                    <h1>Ваше Имя</h1>
+                    <p class="tagline">Frontend Developer & UI/UX Enthusiast</p>
+                    <p>Создаю современные, адаптивные веб-приложения с фокусом на производительность и пользовательский опыт. Постоянно изучаю новые технологии и совершенствую навыки.</p>
+                    
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">Мои проекты</a>
+                        <a href="#contact" class="btn btn-outline">Связаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Мои Навыки</h2>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3/SCSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-tools"></i> Инструменты</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Webpack</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">Chrome DevTools</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-plus-circle"></i> Дополнительно</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Performance Opt</span>
+                        <span class="skill-tag">Cross-browser</span>
+                        <span class="skill-tag">BEM</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" style="background: rgba(67, 97, 238, 0.03);">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Опыт Работы</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="date">2023 - настоящее время</span>
+                        <h3>Frontend Developer</h3>
+                        <p class="item-subtitle">Geox Kids</p>
+                        <ul>
+                            <li>Разработка и поддержка пользовательских интерфейсов для детской коллекции</li>
+                            <li>Оптимизация производительности веб-приложений</li>
+                            <li>Создание адаптивных и кросс-браузерных решений</li>
+                            <li>Интеграция с бэкенд-системами и API</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <span class="date">2021 - 2023</span>
+                        <h3>Web Developer</h3>
+                        <p class="item-subtitle">Компания "Технологии Будущего"</p>
+                        <ul>
+                            <li>Разработка SPA приложений на React.js</li>
+                            <li>Реализация анимаций и интерактивных элементов</li>
+                            <li>Участие в code review и командной разработке</li>
+                            <li>Оптимизация загрузки веб-страниц</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Портфолио</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <div class="project-title">
+                            <h3>Burger Creator</h3>
+                            <div class="project-links">
+                                <a href="https://228burger228.github.io/burgerCreate/" target="_blank" title="Демо">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/228burger228/burgerCreate" target="_blank" title="Код">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>Интерактивное приложение для создания кастомных бургеров с расчетом стоимости и калорий в реальном времени.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <div class="project-title">
+                            <h3>Персональное портфолио</h3>
+                            <div class="project-links">
+                                <a href="#" target="_blank" title="Демо">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" target="_blank" title="Код">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>Современное портфолио с анимациями, темной темой и адаптивным дизайном, демонстрирующее мои проекты.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Анимации</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <div class="project-title">
+                            <h3>Geox Kids Collection</h3>
+                            <div class="project-links">
+                                <a href="#" target="_blank" title="Демо">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>Интернет-магазин детской обуви и одежды с адаптивным дизайном, фильтрами и корзиной покупок.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Redux</span>
+                            <span class="project-tag">SCSS</span>
+                            <span class="project-tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 style="color: white; -webkit-text-fill-color: white;">Контакты</h2>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span>your.email@example.com</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <span>+7 (XXX) XXX-XX-XX</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <span>Москва, Россия</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <span><a href="https://github.com/228burger228" target="_blank" style="color: white;">github.com/228burger228</a></span>
+                    </div>
+                </div>
+                
+                <div class="contact-form fade-in">
+                    <form id="contactForm" style="background: rgba(255,255,255,0.1); padding: 30px; border-radius: var(--radius);">
+                        <div style="margin-bottom: 20px;">
+                            <input type="text" placeholder="Ваше Имя" style="width: 100%; padding: 12px 15px; border-radius: 8px; border: none; background: rgba(255,255,255,0.9);">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <input type="email" placeholder="Ваш Email" style="width: 100%; padding: 12px 15px; border-radius: 8px; border: none; background: rgba(255,255,255,0.9);">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <textarea placeholder="Ваше Сообщение" rows="4" style="width: 100%; padding: 12px 15px; border-radius: 8px; border: none; background: rgba(255,255,255,0.9);"></textarea>
+                        </div>
+                        <button type="submit" style="background: var(--accent); color: white; border: none; padding: 12px 30px; border-radius: 50px; font-weight: 600; cursor: pointer; transition: var(--transition);">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>© 2023 Ваше Имя. Все права защищены.</p>
+            <p>Создано с ❤️ и JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
